@@ -1,0 +1,13 @@
+body{
+    width: 80vw;
+}
+.Bibliografía{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav{
+    width: 100%;
+}
+.Bibliografía div{
+    width: 20%;
+}

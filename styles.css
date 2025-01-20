@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+}
+.maincontainer{
+    background-color: aquamarine;
+    height: 100vh;
+    margin: 10;
+
+}
+.header{
+    display: flex;
+}
+.title{
+    width: 70%;
+    border: solid black;
+}
+.userinfo{
+    width: 30%;
+    border: solid;
+}
+.bodyContent{
+    display:flex;
+    flex-wrap: wrap;
+
+}
+.card{
+    background-color: white;
+    border: solid 1px;
+    width: 30%;
+    margin: 15px
+}
+
+.card:nth-last-child(4){
+    flex-grow: 1;
+}
